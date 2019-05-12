@@ -1,0 +1,1514 @@
+@charset "utf-8";
+/* CSS Document */
+/*//////////////////////////////////////////////////////////////////SMARTPHONE////////////////////////////////////////////*/
+@media only screen and (min-width: 1px){
+/* ------------------------------------TEXTOS----------------------------------- */
+h1{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	Color: #426F68;
+}
+h2{
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow:1px 1px 1px #454445;
+}
+p{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	Color: #273C49;
+}
+p2{
+	font-size: 12px;;
+	font-family: 'Monstserrat', sans-serif;
+	Color: #ffffff;
+}
+ol{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+ul{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+/* ////////////////////////////////////HEADER///////////////////// */
+#headbg{
+	margin-top: -10px;;
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #E3E1CE;
+}
+#head{
+	margin: auto;
+	width: 400px;
+	height: 100px;
+}
+.botonh{
+	width: 133px;
+	height: 16px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.botonh a{
+	color: #426F68;
+	text-decoration: none;
+}
+.botonh a:hover{
+	color: #D7D7D7;
+	transition: color 0.2s linear 0.1s;
+}
+#logoh{
+	margin-right: 0px;
+	margin-top: 10px;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	float: left;
+}
+
+/* ////////////////////////////////////BODY----------------------------------------------(INICIO)///////////////////// */
+
+#bodybg{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 3100px;
+	float: left;
+}
+#body{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+	width: 400px;
+	height: 2900px;
+}
+
+#sup{
+	float: left;
+	background-image: url(Trato.jpg) ;
+	background-size: 450px;
+	background-position: -25px -40px;
+	width: 400px;
+	height: 200px;
+}
+#stext{
+	width: 400px;
+	height: 60PX;
+	margin-top: 0px;
+	float: left;
+	text-align: center;
+}
+#exp{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 380px;
+	height: 200PX;
+	float: left;
+	text-align: center;
+	border-bottom: none;
+}
+#carac{
+	margin-bottom: 0px;
+	margin-top: 30px;
+	text-align: center;
+	width: 400px;
+	height: 175PX;
+	float: left;
+	
+}
+#expcar{
+	margin-right: 10px;
+	width: 390px;
+	height: 300PX;
+	float: left;
+}
+#imgcar{
+	background-size: 400px;
+	background-position: 0px 0px;
+	background-image: url(cdn-3.expansion.mx.jpg);
+	margin-top: 0px;
+	margin-left: inherit;
+	width: 400px;
+	height: 320PX;
+	float: left;
+}
+#sujetos{
+	margin-top: 40px;
+	width: 400px;
+	height: 150PX;
+	float: left;
+	text-align: center;
+}
+#exps1{
+	margin-top: 0px;
+	text-align: center;
+	margin-right: 0px;
+	width: 400px;
+	height: 320PX;
+	float: left;
+	border-right: none;
+}
+#exps2{
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 0px;
+	width: 400px;
+	height: 220PX;
+	float: left;
+	border-left: none;
+}
+#actos{
+	margin-bottom: 0px;
+	margin-top: 25px;
+	text-align: center;
+	width: 400px;
+	height: 175PX;
+	float: left;
+}
+#imgact{
+	background-size: 400px;
+	background-position: 0px 0px;
+	background-image: url( actos.jpg);
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 400px;
+	height: 300PX;
+	float: left;
+}
+#expact{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 400px;
+	height: 300px;
+	float: left;
+	border-left: none;
+}
+/* ////////////////////////////////////BODY-------------------------------------------(REQUISITOS)///////////////////// */
+#bbgreq{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 3700px;
+	float: left;
+}
+#breq{
+	background-color: #ffffff;
+	margin :auto;
+	width: 400PX;;
+	height: 3500px;
+}
+#req{
+	background-size: 1000px;
+	background-image: url(requisitos.jpg);
+	margin-top: 100px;
+	width: 400px;
+	height: 400px;
+	background-position: -320px -30px;
+}
+#reqtx{
+	margin-top: 25px;
+	width: 400px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#cap{
+	margin-top: 0px;
+	margin-right: 0px;
+	width:390px;
+	height: 270px;
+	border-right:none;
+	float: left;
+}
+#captx{
+	width:390px;
+	height: 270px;
+	float: left;
+	text-align: center;
+
+}
+#icap{
+	margin-top: 0px;
+	margin-left: 0px;
+	width:390px;
+	height: 270px;
+	border-left: none;
+	float: left;
+}
+#icaptx{
+	margin-left: 0px;
+	width:390px;
+	height: 270px;
+	float: left;
+	text-align: center;
+}
+#obl{
+	margin-top: 80px;
+	float: left;
+	width: 400px;
+	height: 230px;
+}
+#obltx{
+	width: 400px;
+	height: 230px;
+	float: left;
+	text-align: center;
+}
+#imgobl{
+	margin-top: 0px;
+	background-size: 400px;
+	background-image: url(obligaciones.jpg);
+	width: 400px;
+	height: 245px;
+	float: left;
+	background-position: 0px 0px;
+}
+#expobl{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 400px;
+	height: 200px;
+	border-left: none;
+}
+#expobltx{
+	width: 400px;
+	height: 200px;
+	float: left;
+}
+#reg{
+	margin-top: 80px;
+	float: left;
+	width: 400px;
+	height: 165px;
+}
+#regtx{
+	width: 400px;
+	height: 165px;
+	float: left;
+	text-align: center;
+}
+#expreg{
+	margin-top: 0px;
+	margin-right: 0px;
+	width: 400px;
+	height: 400px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#expregtx{
+	margin-right: 0px;
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+#imgreg{
+	background-size: 400px;
+	background-image: url(registro.jpg);
+	float: left;
+	width: 400px;
+	height: 260px;
+	background-position: 0px 0px;
+	
+}
+#con{
+	margin-top: 80px;
+	margin-left: 5px;
+	width: 390px;
+	height: 620px;
+	float: left;
+}
+#contx{
+	text-align: center;
+	width: 390px;
+	height: 620px;
+	float: left;
+}
+/* ////////////////////////////////////BODY----------------------------------------------(CRÉDITO)///////////////////// */
+#bbgtyo{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 3300px;
+	float: left;
+}
+#btyo{
+	background-color: #ffffff;
+	margin :auto;
+	width: 400PX;;
+	height: 3100px;
+}
+#tyo{
+	background-size: 600px;
+	background-image: url(tyo.jpg);
+	background-position: -100px 0px;
+	margin-top: 100px;
+	width: 400px;
+	height: 300px;
+}
+#tyotx{
+	margin-top: 15px;
+	width: 400px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#exptyo{
+	width: 4400px;
+	height: 150px;
+	float: left;
+}
+#exptyotx{
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 0px;
+	width: 390px;
+	height: 150px;
+	float: left;
+}
+#letc{
+	width: 400px;
+	height: 420px;
+	margin-right: 0px;
+	border-right: none;
+	float: left;
+}
+#letctx{
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 400px;
+	height: 420px;
+}
+#imgletc{
+	width: 400px;
+	height: 220px;
+	float: left;
+	background-size: 400px;
+	background-image: url(letc.jpg);
+	background-position: 0px 0px;
+}
+#cheq{
+	margin-top: 40px;
+	width: 400px;
+	height: 330px;
+	margin-right: 0px;
+	border-right: none;
+	float: left;
+}
+#cheqtx{
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 400px;
+	height: 330px;
+}
+#imgcheq{
+	margin-top: 0px;
+	width: 400px;
+	height: 250px;
+	float: left;
+	background-size: 400px;
+	background-image: url(cheque.jpg);
+	background-position: 0px 0px;
+}
+#pag{
+	margin-top: 40px;
+	width: 400px;
+	height: 400px;
+	margin-right: 0px;
+	border-right: none;
+	float: left;
+}
+#pagtx{
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 0px;
+	width: 395px;
+	height: 400px;
+}
+#imgpag{
+	margin-top: 0px;
+	width: 400px;
+	height: 210px;
+	float: left;
+	background-size: 400px;
+	background-image: url(pag.jpg);
+	background-position: 0px 0px;
+}
+#opb{
+	margin-top: 40px;
+	margin-left: 0px;
+	width: 400px;
+	height: 600px;
+	border-top:none;
+	float: left;
+}
+#opbtx{
+	margin-top: 0px;
+	width: 400px;
+	height: 600px;
+	float: left;
+	text-align: center;
+}
+#opbvid{
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 10px;
+	width: 459px;
+	height: 435px;
+}
+/* ////////////////////////////////////FOOTER///////////////////// */
+#credbg{
+	float: left;
+	background-color: #426F68;
+	width: 100%;
+	height: 300px;
+}
+#cred{
+	text-align: center;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+}
+
+#logocr{
+	text-align: center;
+	margin-top: 20px;
+	width: 400px;
+	height: 50px;
+	float: left;
+}
+#logodd{
+	margin-left: 0px;
+	text-align: center;
+	margin-top: 20px;
+	width: 400px;
+	height: 75px;
+	float: left;
+}
+#tder{
+	margin-right: 0px;
+	margin-top: 30px;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+}
+
+/*//////////////////////////////////////////////////////////////////TABLET////////////////////////////////////////////*/
+@media only screen and (min-width: 481px){
+/* ------------------------------------TEXTOS----------------------------------- */
+h1{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	Color: #426F68;
+}
+h2{
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow:1px 1px 1px #454445;
+}
+p{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	Color: #273C49;
+}
+p2{
+	font-size: 12px;;
+	font-family: 'Monstserrat', sans-serif;
+	Color: #ffffff;
+}
+ol{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+ul{
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+/* ////////////////////////////////////HEADER///////////////////// */
+#headbg{
+	margin-top: -10px;;
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #E3E1CE;
+}
+#head{
+	margin: auto;
+	width: 700px;
+	height: 40px;
+}
+.botonh{
+	width: 135px;
+	height: 16px;
+	margin-top: 12px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.botonh a{
+	color: #426F68;
+	text-decoration: none;
+}
+.botonh a:hover{
+	color: #D7D7D7;
+	transition: color 0.2s linear 0.1s;
+}
+#logoh{
+	margin-right: 135px;
+	margin-top: 0px;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+
+/* ////////////////////////////////////BODY----------------------------------------------(INICIO)///////////////////// */
+
+#bodybg{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 2400px;
+	float: left;
+}
+#body{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+	width: 700px;
+	height: 2200px;
+}
+
+#sup{
+	float: left;
+	background-image: url(Trato.jpg);
+	background-size: 700px;
+	background-position: 0px -75px;
+	width: 700px;
+	height: 300px;
+}
+#stext{
+	width: 700px;
+	height: 160PX;
+	margin-top: 70px;
+	float: left;
+	text-align: center;
+}
+#exp{
+	margin:30px;
+	width: 640px;
+	height: 200px;
+	float: left;
+	border-bottom: 1px solid #E3E1CE;
+}
+#carac{
+	margin-top: 20px;
+	text-align: center;
+	width: 700px;
+	height: 160PX;
+	float: left;
+}
+#expcar{
+	margin-right: 10px;
+	width: 340px;
+	height: 380PX;
+	float: left;
+}
+#imgcar{
+	background-size: 340px;
+	background-image: url(cdn-3.expansion.mx.jpg);
+	background-position: 0px 0px;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 340px;
+	height: 270PX;
+	float: left;
+}
+#sujetos{
+	margin-top: 40px;
+	width: 700px;
+	height: 100PX;
+	float: left;
+	text-align: center;
+}
+#exps1{
+	margin-top: 5px;
+	text-align: center;
+	margin-right: 5px;
+	width: 344px;
+	height: 300PX;
+	float: left;
+	border-right: 1px solid #E3E1CE;
+}
+#exps2{
+	margin-top: 5px;
+	text-align: center;
+	margin-left: 5px;
+	width: 344px;
+	height: 300PX;
+	float: left;
+	border-left: 1px solid #E3E1CE;
+}
+#actos{	
+	margin-top: 50px;
+	text-align: center;
+	width: 700px;
+	height: 175PX;
+	float: left;
+}
+#imgact{
+	background-image: url(actos.jpg);
+	background-position: 0px 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+	width: 340px;
+	height: 300PX;
+	float: left;
+}
+#expact{
+	margin-top: 0px;
+	margin-left: 10px;
+	width: 340px;
+	height: 400px;
+	float: left;
+	border-left: none;
+}
+/* ////////////////////////////////////BODY-------------------------------------------(REQUISITOS)///////////////////// */
+#bbgreq{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 2800px;
+	float: left;
+}
+#breq{
+	background-color: #ffffff;
+	margin :auto;
+	width: 700PX;;
+	height: 2600px;
+}
+#req{
+	background-size: 700px;
+	background-image: url(requisitos.jpg);
+	margin-top: 100px;
+	width: 700px;
+	height: 300px;
+	background-position: 0px 0px;
+}
+#reqtx{
+	margin-top: 40px;
+	width: 700px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#cap{
+	margin-top: 20px;
+	margin-right: 15px;
+	width:334px;
+	height: 320px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#captx{
+	width:334px;
+	height: 320px;
+	float: left;
+	text-align: center;
+
+}
+#icap{
+	margin-top: 20px;
+	margin-left: 15px;
+	width:334px;
+	height: 320px;
+	border-left: 1px solid #E3E1CE;
+	float: left;
+}
+#icaptx{
+	margin-left: 0px;
+	width:334px;
+	height: 320px;
+	float: left;
+	text-align: center;
+}
+#obl{
+	margin-top: 80px;
+	float: left;
+	width: 700px;
+	height: 190px;
+}
+#obltx{
+	width: 700px;
+	height: 190px;
+	float: left;
+	text-align: center;
+}
+#imgobl{
+	background-size: 450px;
+	background-image: url(obligaciones.jpg);
+	width: 350px;
+	height: 270px;
+	float: left;
+	background-position: -80px 0px;
+}
+#expobl{
+	margin-top: 0px;
+	margin-left: 10px;
+	width: 339px;
+	height: 270px;
+	border-left: 1px solid #E3E1CE;
+	float: left;
+}
+#expobltx{
+	width: 339px;
+	height: 270px;
+	float: left;
+}
+#reg{
+	margin-top: 80px;
+	float: left;
+	width: 700px;
+	height: 190px;
+}
+#regtx{
+	width: 700px;
+	height: 190px;
+	float: left;
+	text-align: center;
+}
+#expreg{
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 339px;
+	height: 430px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#expregtx{
+	margin-right: 10px;
+	width: 339px;
+	height: 430px;
+	float: left;
+}
+#imgreg{
+	background-size: 700px;
+	background-image: url(registro.jpg);
+	float: left;
+	width: 350px;
+	height: 430px;
+	background-position: -200px 0px;
+	
+}
+#con{
+	margin-top: 80px;
+	margin-left: 0px;
+	width: 700px;
+	height: 620px;
+	float: left;
+}
+#contx{
+	text-align: center;
+	width: 690px;
+	height: 620px;
+	float: left;
+}
+/* ////////////////////////////////////BODY----------------------------------------------(CRÉDITO)///////////////////// */
+#bbgtyo{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 2800px;
+	float: left;
+}
+#btyo{
+	background-color: #ffffff;
+	margin :auto;
+	width: 700PX;;
+	height: 2600px;
+}
+#tyo{
+	background-size: 700px;
+	background-image: url(tyo.jpg);
+	background-position: 0px -60px;
+	margin-top: 100px;
+	width: 700px;
+	height: 300px;
+}
+#tyotx{
+	margin-top: 40px;
+	width: 700px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#exptyo{
+	width: 680px;
+	height: 200px;
+	float: left;
+}
+#exptyotx{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 40px;
+	width: 680px;
+	height: 200px;
+	float: left;
+}
+#letc{
+	width: 339px;
+	height: 520px;
+	margin-right: 10px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#letctx{
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 329px;
+	height: 520px;
+}
+#imgletc{
+	width: 350px;
+	height: 520px;
+	float: left;
+	background-size: 1000px;
+	background-image: url(letc.jpg);
+	background-position: -380px 0px;
+}
+#cheq{
+	margin-top: 80px;
+	width: 339px;
+	height: 330px;
+	margin-right: 10px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#cheqtx{
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 10px;
+	width: 329px;
+	height: 330px;
+}
+#imgcheq{
+	margin-top: 80px;
+	width: 350px;
+	height: 330px;
+	float: left;
+	background-size: 500px;
+	background-image: url(cheque.jpg);
+	background-position: -100px 0px;
+}
+#pag{
+	margin-top: 80px;
+	width: 339px;
+	height: 420px;
+	margin-right: 10px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#pagtx{
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 329px;
+	height: 420px;
+}
+#imgpag{
+	margin-top: 80px;
+	width: 350px;
+	height: 420px;
+	float: left;
+	background-size: 800px;
+	background-image: url(pag.jpg);
+	background-position: -230px 0px;
+}
+#opb{
+	margin-top: 80px;
+	margin-left: 0px;
+	width: 700px;
+	height: 600px;
+	border-top: 1px solid #E3E1CE;
+	float: left;
+}
+#opbtx{
+	margin-top: 0px;
+	width: 700px;
+	height: 600px;
+	float: left;
+	text-align: center;
+}
+#opbvid{
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 10px;
+	width: 459px;
+	height: 435px;
+}
+/* ////////////////////////////////////FOOTER///////////////////// */
+#credbg{
+	float: left;
+	background-color: #426F68;
+	width: 100%;
+	height: 200px;
+}
+#cred{
+	text-align: center;
+	margin: auto;
+	width: 700px;
+	height: 200px;
+}
+#tder{
+margin-left: 20px;
+margin-top: 80px;
+width: 220px;
+height: 50px;
+text-align: center;
+float: left;
+}
+#logocr{
+	text-align: center;
+	margin-top: 80px;
+	width: 220px;
+	height: 50px;
+	float: left;
+}
+#logodd{
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 62px;
+	width: 220px;
+	height: 75px;
+	float: left;
+}
+}
+
+/*//////////////////////////////////////////////////////////////////DESKTOP////////////////////////////////////////////*/
+@media only screen and (min-width: 769px){
+/* ------------------------------------TEXTOS----------------------------------- */
+h1{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	Color: #426F68;
+}
+h2{
+	color: #ffffff;
+	font-size: 60px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow:1px 1px 1px #454445;
+}
+p{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	Color: #273C49;
+}
+p2{
+	font-size: 12px;;
+	font-family: 'Monstserrat', sans-serif;
+	Color: #ffffff;
+}
+ol{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+ul{
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	Color: #6A9584;
+}
+/* ////////////////////////////////////HEADER///////////////////// */
+#headbg{
+	margin-top: -10px;;
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #E3E1CE;
+}
+#head{
+	margin: auto;
+	width: 900px;
+	height: 40px;
+}
+.botonh{
+	width: 185px;
+	height: 16px;
+	margin-top: 12px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+.botonh a{
+	color: #426F68;
+	text-decoration: none;
+}
+.botonh a:hover{
+	color: #D7D7D7;
+	transition: color 0.2s linear 0.1s;
+}
+#logoh{
+	margin-right: 185px;
+	margin-top: 0px;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+
+/* ////////////////////////////////////BODY----------------------------------------------(INICIO)///////////////////// */
+
+#bodybg{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 2800px;
+	float: left;
+}
+#body{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+	width: 1000px;
+	height: 2600px;
+}
+
+#sup{
+	float: left;
+	background-image: url(Trato.jpg);
+	background-size: 1000px;
+	background-position: 0px -150px;
+	width: 1000px;
+	height: 300px;
+}
+#stext{
+	width: 1000px;
+	height: 60PX;
+	margin-top: 70px;
+	float: left;
+	text-align: center;
+}
+#exp{
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	width: 880px;
+	height: 180PX;
+	float: left;
+	text-align: center;
+	border-bottom: 1px solid #E3E1CE;
+}
+#carac{
+	margin-bottom: 30px;
+	margin-top: 50px;
+	text-align: center;
+	width: 1000px;
+	height: 175PX;
+	float: left;
+}
+#expcar{
+	margin-right: 10px;
+	width: 490px;
+	height: 400PX;
+	float: left;
+}
+#imgcar{
+	background-size: 500px;
+	background-position: 0px 0px;
+	background-image: url(cdn-3.expansion.mx.jpg);
+	margin-top: 20px;
+	margin-left: inherit;
+	width: 500px;
+	height: 400PX;
+	float: left;
+}
+#sujetos{
+	margin-top: 80px;
+	width: 1000px;
+	height: 100PX;
+	float: left;
+	text-align: center;
+}
+#exps1{
+	margin-top: 25px;
+	text-align: center;
+	margin-right: 10px;
+	width: 489px;
+	height: 350PX;
+	float: left;
+	border-right: 1px solid #E3E1CE;
+}
+#exps2{
+	margin-top: 25px;
+	text-align: center;
+	margin-left: 10px;
+	width: 489px;
+	height: 350PX;
+	float: left;
+	border-left: 1px solid #E3E1CE;
+}
+#actos{
+	margin-bottom: 30px;
+	margin-top: 80px;
+	text-align: center;
+	width: 1000px;
+	height: 175PX;
+	float: left;
+}
+#imgact{
+	background-size: 480px;
+	background-position: 0px 0px;
+	background-image: url( actos.jpg);
+	margin-top: 20px;
+	margin-left: inherit;
+	margin-right: 20px;
+	width: 480px;
+	height: 360PX;
+	float: left;
+}
+#expact{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 479px;
+	height: 360px;
+	float: left;
+	border-left: 1px solid #E3E1CE;
+}
+/* ////////////////////////////////////BODY-------------------------------------------(REQUISITOS)///////////////////// */
+#bbgreq{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 3130px;
+	float: left;
+}
+#breq{
+	background-color: #ffffff;
+	margin :auto;
+	width: 1000PX;;
+	height: 2950px;
+}
+#req{
+	background-size: 1000px;
+	background-image: url(requisitos.jpg);
+	margin-top: 100px;
+	width: 1000px;
+	height: 300px;
+	background-position: 0px -60px;
+}
+#reqtx{
+	margin-top: 25px;
+	width: 1000px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#cap{
+	margin-top: 20px;
+	margin-right: 30px;
+	width:469px;
+	height: 350px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#captx{
+	width:429px;
+	height: 350px;
+	float: left;
+	text-align: center;
+
+}
+#icap{
+	margin-top: 20px;
+	margin-left: 30px;
+	width:469px;
+	height: 350px;
+	border-left: 1px solid #E3E1CE;
+	float: left;
+}
+#icaptx{
+	margin-left: 40px;
+	width:429px;
+	height: 350px;
+	float: left;
+	text-align: center;
+}
+#obl{
+	margin-top: 100px;
+	float: left;
+	width: 1000px;
+	height: 190px;
+}
+#obltx{
+	width: 1000px;
+	height: 190px;
+	float: left;
+	text-align: center;
+}
+#imgobl{
+	margin-top: 20px;
+	background-size: 500px;
+	background-image: url(obligaciones.jpg);
+	width: 500px;
+	height: 270px;
+	float: left;
+	background-position: 0px 0px;
+}
+#expobl{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 479px;
+	height: 230px;
+	border-left: 1px solid #E3E1CE;
+	float: left;
+}
+#expobltx{
+	width: 479px;
+	height: 230px;
+	float: left;
+}
+#reg{
+	margin-top: 100px;
+	float: left;
+	width: 1000px;
+	height: 190px;
+}
+#regtx{
+	width: 1000px;
+	height: 190px;
+	float: left;
+	text-align: center;
+}
+#expreg{
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 479px;
+	height: 475px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#expregtx{
+	margin-right: 10px;
+	width: 469px;
+	height: 475px;
+	float: left;
+}
+#imgreg{
+	background-size: 800px;
+	background-image: url(registro.jpg);
+	float: left;
+	width: 500px;
+	height: 515px;
+	background-position: -100px 0px;
+	
+}
+#con{
+	margin-top: 100px;
+	margin-left: 25px;
+	width: 950px;
+	height: 620px;
+	float: left;
+}
+#contx{
+	text-align: center;
+	width: 950px;
+	height: 620px;
+	float: left;
+}
+/* ////////////////////////////////////BODY----------------------------------------------(CRÉDITO)///////////////////// */
+#bbgtyo{
+	background-image: url(intersection.png);
+	width: 100%;
+	height: 3130px;
+	float: left;
+}
+#btyo{
+	background-color: #ffffff;
+	margin :auto;
+	width: 1000PX;;
+	height: 2950px;
+}
+#tyo{
+	background-size: 1000px;
+	background-image: url(tyo.jpg);
+	background-position: 0px -120px;
+	margin-top: 100px;
+	width: 1000px;
+	height: 300px;
+}
+#tyotx{
+	margin-top: 25px;
+	width: 1000px;
+	height: 250px;
+	float:left;
+	text-align: center;
+}
+#exptyo{
+	width: 1000px;
+	height: 250px;
+	float: left;
+}
+#exptyotx{
+	text-align: center;
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 900px;
+	height: 150px;
+	float: left;
+}
+#letc{
+	width: 479px;
+	height: 550px;
+	margin-right: 20px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#letctx{
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 459px;
+	height: 550px;
+}
+#imgletc{
+	width: 500px;
+	height: 550px;
+	float: left;
+	background-size: 1000px;
+	background-image: url(letc.jpg);
+	background-position: -330px 0px;
+}
+#cheq{
+	margin-top: 80px;
+	width: 479px;
+	height: 435px;
+	margin-right: 20px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#cheqtx{
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 10px;
+	width: 459px;
+	height: 435px;
+}
+#imgcheq{
+	margin-top: 80px;
+	width: 500px;
+	height: 435px;
+	float: left;
+	background-size: 800px;
+	background-image: url(cheque.jpg);
+	background-position: -110px 0px;
+}
+#pag{
+	margin-top: 80px;
+	width: 479px;
+	height: 520px;
+	margin-right: 20px;
+	border-right: 1px solid #E3E1CE;
+	float: left;
+}
+#pagtx{
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 459px;
+	height: 520px;
+}
+#imgpag{
+	margin-top: 80px;
+	width: 500px;
+	height: 520px;
+	float: left;
+	background-size: 990px;
+	background-image: url(pag.jpg);
+	background-position: -200px 0px;
+}
+#opb{
+	margin-top: 60px;
+	margin-left: 50px;
+	width: 900px;
+	height: 600px;
+	border-top: 1px solid #E3E1CE;
+	float: left;
+}
+#opbtx{
+	margin-top: 50px;
+	width: 900px;
+	height: 600px;
+	float: left;
+	text-align: center;
+}
+#opbvid{
+	text-align: center;
+	margin-right: 50px;
+	margin-left: 10px;
+	width: 459px;
+	height: 435px;
+}
+/* ////////////////////////////////////FOOTER///////////////////// */
+#credbg{
+	float: left;
+	background-color: #426F68;
+	width: 100%;
+	height: 200px;
+}
+#cred{
+	text-align: center;
+	margin: auto;
+	width: 1000px;
+	height: 200px;
+}
+#logocr{
+	margin-left: 50px;
+	text-align: center;
+	margin-top: 80px;
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+#logodd{
+	
+	text-align: center;
+	margin-top: 62px;
+	width: 300px;
+	height: 75px;
+	float: left;
+}
+#tder{
+	margin-right: 0px;
+	margin-top: 80px;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+}
